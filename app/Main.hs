@@ -2,12 +2,6 @@ import Data.Maybe
 
 type Vec a = Maybe [a]
 
-{-
-vecAdd :: Num a => Vec a -> Vec a -> Vec a
-vecAdd x y | length x == length y = zipWith (+) x y
-           | otherwise = [-1]
-           -}
-
 vecEqlLength :: Num a => Vec a -> Vec a -> Bool
 vecEqlLength x y | length x == length y = True
                  | otherwise            = False
