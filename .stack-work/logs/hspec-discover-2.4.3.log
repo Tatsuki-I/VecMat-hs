@@ -1,0 +1,46 @@
+Configuring hspec-discover-2.4.3...
+Building hspec-discover-2.4.3...
+Preprocessing library hspec-discover-2.4.3...
+[1 of 3] Compiling Test.Hspec.Discover.Config ( src/Test/Hspec/Discover/Config.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Discover/Config.o )
+[2 of 3] Compiling Test.Hspec.Discover.Run ( src/Test/Hspec/Discover/Run.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Discover/Run.o )
+[3 of 3] Compiling Paths_hspec_discover ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Paths_hspec_discover.o )
+Preprocessing executable 'hspec-discover' for hspec-discover-2.4.3...
+[1 of 1] Compiling Main             ( driver/hspec-discover.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/hspec-discover/hspec-discover-tmp/Main.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/hspec-discover/hspec-discover ...
+Running Haddock for hspec-discover-2.4.3...
+Preprocessing library hspec-discover-2.4.3...
+Haddock coverage:
+  20% (  1 /  5) in 'Test.Hspec.Discover.Config'
+  Missing documentation for:
+    Config (src/Test/Hspec/Discover/Config.hs:14)
+    defaultConfig (src/Test/Hspec/Discover/Config.hs:21)
+    parseConfig (src/Test/Hspec/Discover/Config.hs:35)
+    usage (src/Test/Hspec/Discover/Config.hs:32)
+  40% (  4 / 10) in 'Test.Hspec.Discover.Run'
+  Missing documentation for:
+    run (src/Test/Hspec/Discover/Run.hs:42)
+    Spec (src/Test/Hspec/Discover/Run.hs:37)
+    fileToSpec (src/Test/Hspec/Discover/Run.hs:124)
+    findSpecs (src/Test/Hspec/Discover/Run.hs:119)
+    getFilesRecursive (src/Test/Hspec/Discover/Run.hs:143)
+    driverWithFormatter (src/Test/Hspec/Discover/Run.hs:88)
+   0% (  0 /  9) in 'Paths_hspec_discover'
+  Missing documentation for:
+    Module header
+    version (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:28)
+    getBinDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+    getLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+    getDynLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+    getDataDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+    getLibexecDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+    getDataFileName (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:47)
+    getSysconfDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_discover.hs:39)
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec-discover/index.html,
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec-discover/hspec-discover.txt
+Preprocessing executable 'hspec-discover' for hspec-discover-2.4.3...
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.13/8.0.2/lib/x86_64-osx-ghc-8.0.2/hspec-discover-2.4.3-CG2f3yt4qi61oj48M1aJup
+Installing executable(s) in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.13/8.0.2/bin
+Registering hspec-discover-2.4.3...

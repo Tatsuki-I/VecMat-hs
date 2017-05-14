@@ -1,0 +1,59 @@
+Configuring hspec-2.4.3...
+Building hspec-2.4.3...
+Preprocessing library hspec-2.4.3...
+[1 of 8] Compiling Test.Hspec.Runner ( src/Test/Hspec/Runner.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Runner.o )
+[2 of 8] Compiling Test.Hspec.HUnit ( src/Test/Hspec/HUnit.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/HUnit.o )
+[3 of 8] Compiling Test.Hspec.Formatters ( src/Test/Hspec/Formatters.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Formatters.o )
+[4 of 8] Compiling Test.Hspec.Discover ( src/Test/Hspec/Discover.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Discover.o )
+[5 of 8] Compiling Test.Hspec.Core  ( src/Test/Hspec/Core.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Core.o )
+[6 of 8] Compiling Test.Hspec       ( src/Test/Hspec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec.o )
+[7 of 8] Compiling Test.Hspec.QuickCheck ( src/Test/Hspec/QuickCheck.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/QuickCheck.o )
+[8 of 8] Compiling Paths_hspec      ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Paths_hspec.o )
+Running Haddock for hspec-2.4.3...
+Preprocessing library hspec-2.4.3...
+Haddock coverage:
+  50% (  1 /  2) in 'Test.Hspec.Runner'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Test.Hspec.HUnit'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Test.Hspec.Formatters'
+  Missing documentation for:
+    Module header
+  38% (  3 /  8) in 'Test.Hspec.Discover'
+  Missing documentation for:
+    Module header
+    Spec
+    IsFormatter (src/Test/Hspec/Discover.hs:26)
+    hspecWithFormatter (src/Test/Hspec/Discover.hs:35)
+    postProcessSpec (src/Test/Hspec/Discover.hs:40)
+  60% (  3 /  5) in 'Test.Hspec.Core'
+  Missing documentation for:
+    describe (src/Test/Hspec/Core.hs:13)
+    it (src/Test/Hspec/Core.hs:17)
+  92% ( 37 / 40) in 'Test.Hspec'
+  Missing documentation for:
+    Spec
+    SpecWith
+    Arg
+  86% (  6 /  7) in 'Test.Hspec.QuickCheck'
+  Missing documentation for:
+    Module header
+   0% (  0 /  9) in 'Paths_hspec'
+  Missing documentation for:
+    Module header
+    version (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:28)
+    getBinDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+    getLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+    getDynLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+    getDataDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+    getLibexecDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+    getDataFileName (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:47)
+    getSysconfDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec.hs:39)
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec/index.html,
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec/hspec.txt
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.13/8.0.2/lib/x86_64-osx-ghc-8.0.2/hspec-2.4.3-HBpqzXYRXJ933IT5Hc0L2H
+Registering hspec-2.4.3...

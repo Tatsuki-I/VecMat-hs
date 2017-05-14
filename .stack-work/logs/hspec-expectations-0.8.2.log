@@ -1,0 +1,41 @@
+Configuring hspec-expectations-0.8.2...
+Building hspec-expectations-0.8.2...
+Preprocessing library hspec-expectations-0.8.2...
+[1 of 4] Compiling Test.Hspec.Expectations.Matcher ( src/Test/Hspec/Expectations/Matcher.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Expectations/Matcher.o )
+[2 of 4] Compiling Test.Hspec.Expectations.Contrib ( src/Test/Hspec/Expectations/Contrib.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Expectations/Contrib.o )
+[3 of 4] Compiling Test.Hspec.Expectations ( src/Test/Hspec/Expectations.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Test/Hspec/Expectations.o )
+[4 of 4] Compiling Paths_hspec_expectations ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Paths_hspec_expectations.o )
+Running Haddock for hspec-expectations-0.8.2...
+Preprocessing library hspec-expectations-0.8.2...
+Haddock coverage:
+   0% (  0 /  2) in 'Test.Hspec.Expectations.Matcher'
+  Missing documentation for:
+    Module header
+    matchList (src/Test/Hspec/Expectations/Matcher.hs:6)
+ 100% (  5 /  5) in 'Test.Hspec.Expectations.Contrib'
+  77% ( 23 / 30) in 'Test.Hspec.Expectations'
+  Missing documentation for:
+    Expectation (src/Test/Hspec/Expectations.hs:76)
+    expectationFailure (src/Test/Hspec/Expectations.hs:78)
+    anyException (src/Test/Hspec/Expectations.hs:182)
+    anyErrorCall (src/Test/Hspec/Expectations.hs:185)
+    anyIOException (src/Test/Hspec/Expectations.hs:195)
+    anyArithException (src/Test/Hspec/Expectations.hs:198)
+    errorCall (src/Test/Hspec/Expectations.hs:188)
+   0% (  0 /  9) in 'Paths_hspec_expectations'
+  Missing documentation for:
+    Module header
+    version (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:28)
+    getBinDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+    getLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+    getDynLibDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+    getDataDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+    getLibexecDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+    getDataFileName (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:47)
+    getSysconfDir (.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/autogen/Paths_hspec_expectations.hs:39)
+Documentation created:
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec-expectations/index.html,
+.stack-work/dist/x86_64-osx/Cabal-1.24.2.0/doc/html/hspec-expectations/hspec-expectations.txt
+Installing library in
+/Users/tatsuki/.stack/snapshots/x86_64-osx/lts-8.13/8.0.2/lib/x86_64-osx-ghc-8.0.2/hspec-expectations-0.8.2-DujBeQFEMmfJJRLad7XQgd
+Registering hspec-expectations-0.8.2...
